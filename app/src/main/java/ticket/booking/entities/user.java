@@ -1,0 +1,12 @@
+package ticket.booking.entities;
+
+import java.util.List;
+
+public class user {
+    private String name;
+    private String password;
+    private String hashPassword;
+
+    private List<Ticket> ticketBooked;
+    private String userId;
+}
